@@ -1,0 +1,18 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Kevin Leach
+email: kleach0@gmail.com
+description: > # Webcome to my personal website / blog / general mess around domain. Please feel free to contact me with anything!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.kevin-leach.com/" # the base hostname & protocol for your site
+twitter_username: FantasticLeach
+github_username:  KevinnB
+
+# Build settings
+markdown: kramdown
