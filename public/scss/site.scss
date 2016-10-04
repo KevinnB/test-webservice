@@ -1,0 +1,26 @@
+@import "compass/reset";
+@import "compass/layout/sticky-footer";
+
+body{
+	font-family: arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #222222;
+}
+
+#header, #content{
+	h1{
+		font-size: 40px;
+		font-weight: 800;
+		margin:10px 0px 15px;
+	}
+	p{
+		color:#2d2d2d;
+		margin:5px 0px;
+	}
+
+
+	width:	1000px;
+	margin:	0px auto;
+	text-align: center
+}

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var express = require('express'),
 	winston = require('winston'),
 	http	= require('http');
@@ -36,5 +37,13 @@ exports.createServer = function (port) {
 
 
 
+=======
+var express = require('express');
+var app = express();
+
+app.use(express.static(__dirname + '/public'));
+
+var port = process.env.PORT || 8000;
+>>>>>>> bb20bcc6a760411f6a4307f674f402dab4f34a4f
 
 app.listen(port);
